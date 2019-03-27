@@ -1,1 +1,8 @@
+<% if @item %>
+  <p><%= @item %></p>
+<% end %>
 
+<form action='/checkout' method='post'>
+  <input type='text' name='item'>
+  <input type='submit' id='submit'>
+</form>
