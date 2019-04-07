@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your basket</title>
+  </head>
+
+  <body>
+    <form method="POST" action="/checkout">
+      <h1>Added to your basket:</h1>
+      <p><%= @session[:item] %></p>
+
+    </form>
+  </body>
+</html>
