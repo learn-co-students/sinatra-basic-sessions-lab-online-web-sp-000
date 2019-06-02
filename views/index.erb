@@ -1,1 +1,9 @@
-
+<h1>Buy an item!</h1>
+<form action="/checkout" method="post">
+  <label for="item">Item:</label>
+  <input type="text" name="item">
+  <input type="submit" id="submit">
+</form>
+<br>
+<h2>Your item:</h2>
+<p><%= @session[:item] %></p>
