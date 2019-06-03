@@ -5,7 +5,7 @@ class App < Sinatra::Base
   configure do
 
     enable :sessions
-    set :session_secret, "secret"
+    set :session_secret, "flatiron lab"
 
   end
 
@@ -15,7 +15,7 @@ class App < Sinatra::Base
   end
 
   post '/checkout' do
+    session[:item]=params[:item]
     @session=session
-    @session[:item]=params[:item]
   end
 end
