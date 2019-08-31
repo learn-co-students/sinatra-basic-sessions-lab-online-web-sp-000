@@ -1,7 +1,7 @@
 # Sinatra Basic Sessions Lab
 
 Session cookies allow a website to keep track of your movements and information from page to page for a single session (log in time to log out time). As soon as you log out, the cookie expires and the browser loses the data.
-
+https://learn.co/tracks/full-stack-web-development-v7/sinatra/sessions/sinatra-sessions-lab#
 Server side, you set up a session, and the information from that session is stored in the browser by way of a cookie.
 
 The goal of this lab is to save a piece of data to the `session cookie`, and display that data in a view. 
