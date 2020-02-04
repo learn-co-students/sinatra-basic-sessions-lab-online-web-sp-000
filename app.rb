@@ -10,12 +10,15 @@ class App < Sinatra::Base
   get '/' do
     erb :index
   end
+<<<<<<< HEAD
   
   post '/checkout' do 
     session['item'] = params['item']
     @session = session
     erb :result
   end
+=======
+>>>>>>> 978b8aac8c1d6097c0c28c50133324762cb2d26e
 
   
 end
