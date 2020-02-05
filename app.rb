@@ -16,4 +16,8 @@ class App < Sinatra::Base
     @session = session
     erb :result
   end
+  
+  get '/session' do
+    session.to_hash.to_s
+  end
 end
