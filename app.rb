@@ -7,8 +7,8 @@ class App < Sinatra::Base
   end
 
   post '/checkout' do
-    @sessions = sessions
+    @session = session
     item = params["item"]
-    @sessions[:item] = item
+    @session[:item] = item
   end
 end
