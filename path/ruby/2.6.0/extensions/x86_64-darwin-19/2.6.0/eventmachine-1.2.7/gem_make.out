@@ -1,0 +1,16 @@
+current directory: /Users/Joshuajack/Flatiron/code/sinatra-basic-sessions-lab-online-web-sp-000/path/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/Joshuajack/.rvm/rubies/ruby-2.6.1/bin/ruby -I /Users/Joshuajack/.rvm/rubies/ruby-2.6.1/lib/ruby/site_ruby/2.6.0 -r ./siteconf20200521-10279-qy1tsd.rb extconf.rb
+creating Makefile
+
+current directory: /Users/Joshuajack/Flatiron/code/sinatra-basic-sessions-lab-online-web-sp-000/path/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /Users/Joshuajack/Flatiron/code/sinatra-basic-sessions-lab-online-web-sp-000/path/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/Joshuajack/Flatiron/code/sinatra-basic-sessions-lab-online-web-sp-000/path/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 fastfilereaderext.bundle ./.gem.20200521-10279-sd2n1a
