@@ -1,5 +1,5 @@
 require_relative 'config/environment'
-reguire'pry'
+require'pry'
 class App < Sinatra::Base
     configure do
         enable :sessions
@@ -9,8 +9,10 @@ class App < Sinatra::Base
         erb :index
     end
     post '/checkout' do 
+      
         @session= session
-        session[item]= "boots"
-        binding.pry
+        @params_data = params["item"]
+        session['item']= "socks"
+     
     end
 end
