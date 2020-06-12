@@ -10,7 +10,7 @@ class App < Sinatra::Base
     end
     post '/checkout' do 
         @session= session
-        session[iteam]= "boots"
+        session[item]= "boots"
         binding.pry
     end
 end
