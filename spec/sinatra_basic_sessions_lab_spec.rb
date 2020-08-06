@@ -14,25 +14,7 @@ describe App do
     end
   end
 
-  describe 'POST /checkout' do
-
-    it "displays the shopping cart contents" do 
-      visit '/'
-
-      fill_in(:item, :with => "socks")
-      click_button "submit"
-      expect(page).to have_text("socks")
-    end
-
-    it "sets the params in the session hash" do 
-      params = {
-        :item => "socks"
-      }
-      post '/checkout', params
-      expect(session.has_key?(:item)).to eq(true)
-      expect(session[:item]).to eq(params[:item])
-    end
-  end
+  
 
   
 end
