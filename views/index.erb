@@ -1,1 +1,11 @@
-
+<form action="/checkout" method="post">
+    <label for="item">Item: </label>
+    <input type="text" id="item" name="item">
+    <% if false %>
+        <label for="item_name">Item Name</label>
+        <input type="text" id="item_name" name="item[name]">
+        <label for="item_price">Item Price</label>
+        <input type="text" id="item_price" name="item[price]"><br>
+    <% end %>
+    <input type="submit" value="submit">
+</form>
