@@ -21,3 +21,4 @@ class App < Sinatra::Base
 end
 
 # visit this website (https://rubydoc.info/gems/sinatra#using-sessions) to learn how to configure session secret securely
+# remember to add 'gem sysrandom' to Gemfile
