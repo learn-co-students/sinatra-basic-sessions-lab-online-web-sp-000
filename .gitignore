@@ -43,3 +43,6 @@ jspm_packages
 /log/*
 !/log/.keep
 /tmp
+
+# Ignoring the session_secret key as it needs to remain private.
+*session_secret
