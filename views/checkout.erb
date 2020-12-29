@@ -6,9 +6,6 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="/checkout" method="POST">
-    <label>Item: <input type="text" name="item"></label>
-    <input type="submit" id="submit">
-  </form>
+  <h4>Item purchased: <%= @session[:item] %></h4>
 </body>
 </html>
