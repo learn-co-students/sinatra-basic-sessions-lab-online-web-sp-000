@@ -2,7 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
-  config do
+  configure do
     enable :sessions
     set :session_secret, "feateaioteastneatheastiehoataete"
   end
@@ -12,7 +12,7 @@ class App < Sinatra::Base
   end
 
   get '/checkout' do
-    session["item"]
+    session["item"] = []
     @session = session
   end
 end
