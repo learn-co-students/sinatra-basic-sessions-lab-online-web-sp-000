@@ -11,14 +11,17 @@ get '/' do
   erb :index
 end
 
-post '/checkout'
+post '/checkout' do
+ # binding.pry
 
-params[:item]
+@item = params[:item]
  
  
- session["item"] = "item"
+ session["item"] = "socks"
   @session = session
 
 
-erb :index
+erb :output
+end
+
 end
